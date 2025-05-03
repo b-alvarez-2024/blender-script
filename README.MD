@@ -4,32 +4,32 @@
 ![Blender](https://img.shields.io/badge/Blender-4.4-orange?logo=blender)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-**Script para generar miniaturas automáticamente al guardar archivos en Blender**
+**Script to automatically generate thumbnails when saving Blender files**
 
-## 📝 Descripción
+## 📝 Description
 
-Este script para Blender genera automáticamente una miniatura en formato PNG cada vez que guardas tu archivo `.blend`. La miniatura se guarda en la misma ubicación que el archivo original con el sufijo `_thumb.png`.
+This Blender script automatically generates a PNG thumbnail every time you save your `.blend` file. The thumbnail is saved in the same location as the original file with the `_thumb.png` suffix.
 
-## ✨ Características
+## ✨ Features
 
-- Generación automática de miniaturas al guardar
-- Tamaño configurable (800×600px por defecto)
-- Formato PNG de alta calidad
-- Restauración de configuraciones originales
-- Manejo de errores integrado
+- Automatic thumbnail generation on save
+- Configurable size (800×600px by default)
+- High-quality PNG format
+- Original settings restoration
+- Built-in error handling
 
-## 🛠️ Requisitos
+## 🛠️ Requirements
 
 - Blender 4.4+
-- Python 3.11 (incluido en Blender)
+- Python 3.11 (included in Blender)
 
-## 🚀 Instalación
+## 🚀 Installation
 
-opcion 1
+Option 1
 
-Pegar el codigo en el panel de texto en el archivo blend donde se quiera utilizar esta caracteristica, por ejemplo en el archivo de inicio por defecto.
-Es necesario permitir en configuracion de blender la ejecucion de scripts y recargar el archivo cada vez que se modifique el script
+Paste the code in the text editor panel within the .blend file where you want to use this feature (for example, in the default startup file).
+You need to enable script execution in Blender's preferences and reload the file each time you modify the script.
 
-opcion 2
+Option 2
 
-Guarda como `auto_thumbnail.py` en tu carpeta de scripts:
+Save as `auto_thumbnail.py` in your scripts folder:
