@@ -28,7 +28,7 @@ Este script para Blender genera automáticamente una miniatura en formato PNG ca
 opcion 1
 
 Pegar el codigo en el panel de texto en el archivo blend donde se quiera utilizar esta caracteristica, por ejemplo en el archivo de inicio por defecto.
-Es necesario permitir en configuracion de blender la ejecucion de scripts
+Es necesario permitir en configuracion de blender la ejecucion de scripts y recargar el archivo cada vez que se modifique el script
 
 opcion 2
 
