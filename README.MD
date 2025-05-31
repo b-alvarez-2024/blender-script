@@ -14,7 +14,7 @@ This Blender script automatically generates a PNG thumbnail every time you save 
 
 - Automatic thumbnail generation on save
 - Configurable size (800×600px by default)
-- High-quality PNG format
+- High-quality PNG format (or another formats)
 - Original settings restoration
 - Built-in error handling
 
